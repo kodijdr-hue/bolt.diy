@@ -4,7 +4,7 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-      target: bolt-ai-production
+      target: bolt-ai-runtime
     ports:
       - '5173:5173'
     env_file: 
