@@ -1,6 +1,5 @@
 services:
   app-prod:
-    image: bolt-ai:production
     build:
       context: .
       dockerfile: Dockerfile
